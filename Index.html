@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Flexbox</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <h1>CSS Snippet Cheatsheet</h1>
+      <h2>Ever have trouble recalling the exact syntax for your favorit CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all the of the code for you to copy</h2>
+    </header>
+
+    <main>
+      <section class="card">
+        <header>Flexbox Row</header>
+        <p>Use these three properties to create a Flexbox row layout</p>
+        <p>.row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap;
+          }</p>
+      </section>
+      <section class="card">
+        <header>Flexbox Column</header>
+        <p>Use this to create a Flexbox column layout.</p>
+        <p>.column {
+            display: flex;
+            flex-direction: column}
+        </p>
+      </section>
+      <section class="card">
+        <header>CSS Grid Layout</header>
+        <p>Build a 12-column layout using CSS Grid</p>
+        <p>.grid {
+            display: grid;
+            width: 100%;
+            grid-template-columns;
+            repeat (12, 1fr);
+        }
+        </p>
+      </section>
+      <section class="card">
+        <header>Linear Gradients</header>
+        <p>This will create a background linear gradient from top to bottom</p>
+        <p>.linear-gradient-background {
+            background-image: liner-gradient(
+                rgba(232, 102, 236, 0.3) 0%,
+                rgba(232, 102, 236, 0.6) 100%
+            ):
+        </p>
+      </section>
+      <section class="card">
+        <header>Soap</header>
+        <img src="./assets/images/soap.jpg" alt="soap" />
+        <p>Price: $5</p>
+      </section>
+      <section class="card">
+        <header>Spinning Top</header>
+        <img src="./assets/images/spinning-top.jpg" alt="spinning top" />
+        <p>Price: $3</p>
+      </section>
+    </main>
+  </body>
+
+</html>
